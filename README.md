@@ -9,7 +9,7 @@ Simulator used in this is created by [Udacity](https://www.udacity.com/). This s
 * Training mode
 * Autonomous mode
 
-You can download it from [here](https://github.com/udacity/self-driving-car-sim). And training mode looks like
+You can download it from this [repo](https://github.com/udacity/self-driving-car-sim). And training mode looks like
 
 <div align="center"><img src="assets/sample_picture.png" width="75%"></div>
 
@@ -39,6 +39,6 @@ Data contains
 
 ## Results
 
-For deep learning approach model is driving good but in some cases like sharp turns it is not driving smooth (but more data and a bigger network can deal with this problem). You can see it here https://youtu.be/0cm4fpY_BcU.
+Using deep learning approach model is driving good but in some cases like sharp turning model is not driving smoothly (but more data and a bigger network can deal with this problem). You can see it here https://youtu.be/0cm4fpY_BcU.
 
 <div align="center"><a href="https://github.com/vstark21">&copy V I S H W A S</a></div>
