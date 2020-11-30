@@ -35,7 +35,7 @@ Data contains
 
   But as of now I have used only data from center of the car and steering angle and it looks like this 
 
-<div align="center"><img src="assets/data_sample.jpg"</div>
+<div align="center"><img src="assets/data_sample.jpg"></div>
 
 ## Results
 
