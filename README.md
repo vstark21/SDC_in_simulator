@@ -1,6 +1,6 @@
 # SDC_in_simulator
 
-To autonomously drive a car in a  simulated world. This can be done using traditional approach as well as deep learning approach.
+To autonomously drive a car in a  simulated world using behavioral cloning. This can be done using traditional approach as well as deep learning approach.
 
 ## Simulator 
 
@@ -12,6 +12,12 @@ Simulator used in this is created by [Udacity](https://www.udacity.com/). This s
 You can download it from [here](https://github.com/udacity/self-driving-car-sim). And training mode looks like
 
 <div align="center"><img src="assets/sample_picture.png" width="75%"></div>
+
+To drive car autonomously open simulator and click on autonomous mode and then run
+
+```sh
+python drive.py model.h5
+```
 
 ## Training
 
