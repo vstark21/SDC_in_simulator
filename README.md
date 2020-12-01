@@ -15,13 +15,9 @@ Simulator used in this is created by [Udacity](https://www.udacity.com/). This s
 
 You can download it from this [repo](https://github.com/udacity/self-driving-car-sim). And training mode looks like
 
-In track 1,
-
-<div align="center"><img src="assets/sample_picture_track1.png" width="75%"></div>
-
-In track 2,
-
-<div align="center"><img src="assets/sample_picture_track2.png" width="75%"></div>
+| Track-1                                      | Track-2                                      |
+| -------------------------------------------- | -------------------------------------------- |
+| <img src="assets/sample_picture_track1.png"> | <img src="assets/sample_picture_track2.png"> |
 
 To drive car autonomously open simulator and click on autonomous mode and then run
 
