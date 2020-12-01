@@ -2,6 +2,10 @@
 
 To autonomously drive a car in a  simulated world using behavioral cloning. This can be done using traditional approach as well as deep learning approach.
 
+You can see here a glimpse here
+
+<div align="center"><img src="assets/gif_track2.gif"></div>
+
 ## Simulator 
 
 Simulator used in this is created by [Udacity](https://www.udacity.com/). This simulator contains two modes 
