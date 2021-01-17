@@ -1,6 +1,6 @@
 # SDC_in_simulator
 
-To autonomously drive a car in a  simulated world using behavioral cloning. This can be done using traditional approach as well as deep learning approach.
+Driving a car autonomously in a  simulated world using [behavioral cloning](https://link.springer.com/10.1007%2F978-0-387-30164-8_69#:~:text=Behavioral%20cloning%20is%20a%20method,input%20to%20a%20learning%20program.). This can be done using traditional approach as well as deep learning approach.
 
 You can see a glimpse here
 
@@ -19,17 +19,15 @@ You can download it from this [repo](https://github.com/udacity/self-driving-car
 | -------------------------------------------- | -------------------------------------------- |
 | <img src="assets/sample_picture_track1.png"> | <img src="assets/sample_picture_track2.png"> |
 
-To drive car autonomously open simulator and click on autonomous mode and then run
+To drive car autonomously open simulator and click on autonomous mode and then run in this folder
 
 ```sh
 python drive.py model.h5
 ```
 
-## Training
+## Approach
 
-For **Track-1** using deep learning approach, I have trained a CNN (**Lenet** configuration and modified it a bit) with data provided by Udacity and collected some using simulator. 
-
-And for **Track-2** using deep learning approach, I have trained same CNN using data collected from simulator.
+For both of the tracks, I trained a CNN (Modified **Lenet** architecture) with data provided by Udacity and collected some using simulator. 
 
 Data contains 
 
@@ -38,11 +36,11 @@ Data contains
 * Speed at that specific time
 * Throttle at that specific time
 
-For **Track-1**, I have used only data from center of the car and steering angle and it looks like this 
+For **Track-1** training, I used images from center of the car and respective steering angles. It looks like this 
 
 <div align="center"><img src="assets/data_sample.jpg"></div>
 
-But for **Track-2**, I have used data from center, left, right and flipped image of center image to train the network and used steering angle data in this way
+But for **Track-2 **training, I used images from center, left, right and flipped image of center image to train the network and used steering angle data in this way
 
 | <img src="assets/center.jpg"><small>Center Image</small>    | <img src="assets/left.jpg"> <small>Left Image</small> | <img src="assets/right.jpg"> <small>Right Image</small> | <img src="assets/center_flipped.jpg"> <small>Flipped Center Image</small> |
 | ----------------------------------------------------------- | ----------------------------------------------------- | ------------------------------------------------------- | ------------------------------------------------------------ |
@@ -50,7 +48,7 @@ But for **Track-2**, I have used data from center, left, right and flipped image
 
 ## Results
 
-Using deep learning approach model is driving good but in some cases like sharp turning model is not driving smoothly (but more data and a bigger network can deal with this problem). 
+Model is driving good but in some cases like sharp turning model is not driving smoothly (but more data and a bigger network can solve this problem). 
 
 You can see them here 
 
