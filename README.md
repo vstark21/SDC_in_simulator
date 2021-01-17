@@ -40,7 +40,7 @@ For **Track-1** training, I used images from center of the car and respective st
 
 <div align="center"><img src="assets/data_sample.jpg"></div>
 
-But for **Track-2 **training, I used images from center, left, right and flipped image of center image to train the network and used steering angle data in this way
+But for **Track-2** training, I used images from center, left, right and flipped image of center image to train the network and used steering angle data in this way
 
 | <img src="assets/center.jpg"><small>Center Image</small>    | <img src="assets/left.jpg"> <small>Left Image</small> | <img src="assets/right.jpg"> <small>Right Image</small> | <img src="assets/center_flipped.jpg"> <small>Flipped Center Image</small> |
 | ----------------------------------------------------------- | ----------------------------------------------------- | ------------------------------------------------------- | ------------------------------------------------------------ |
@@ -48,7 +48,7 @@ But for **Track-2 **training, I used images from center, left, right and flipped
 
 ## Results
 
-Model is driving good but in some cases like sharp turning model is not driving smoothly (but more data and a bigger network can solve this problem). 
+Model is driving good but in some cases like sharp turnings, model is not driving smoothly (but more data and a bigger network can solve this problem). 
 
 You can see them here 
 
