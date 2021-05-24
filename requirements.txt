@@ -3,7 +3,7 @@ eventlet==0.31.0
 opencv_python==4.4.0.46
 h5py==2.10.0
 numpy==1.18.5
-tensorflow==2.3.0
+tensorflow==2.5.0
 Flask==1.1.2
 scipy==1.4.1
 gevent_socketio==0.3.6
